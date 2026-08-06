@@ -1,0 +1,55 @@
+# Virtual environments
+.venv/
+.venv-dl/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+
+# Generated reports
+*.pdf
+
+# Temporary package list
+current_packages.txt
+
+# Large legacy ML model - not required by FastAPI PlantVision
+models/random_forest.pkl
+
+# Models not required by deployed FastAPI application
+models/random_forest.pkl
+models/svm.pkl
+models/scaler.pkl
+models/feature_columns.pkl
+
+# Older MobileNet checkpoint
+models/plantvision_mobilenet_best.keras
+
+# Training datasets - keep locally, don't upload
+data/raw/
+data/processed/
+
+# Notebook generated files
+notebooks/data/
+notebooks/models/
